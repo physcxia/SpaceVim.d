@@ -9,7 +9,7 @@ function! myspacevim#before() abort
   hi Conceal ctermbg=none
   " hi SpellBad cterm=underline,bold ctermfg=red
   " hi SpellBad cterm=underline,bold
-  let g:ale_linters = {'python': ['flake8', 'pylint'], 'tex': ['chktex'], 'cpp': ['clangd', 'cppcheck'], 'julia': ['languageserver']}
+  let g:ale_linters = {'python': ['flake8', 'pylint'], 'tex': ['chktex'], 'cpp': ['clangd', 'cppcheck'], 'julia': ['languageserver'], 'fortran': ['gcc']}
   let g:ale_cpp_cc_executable = 'g++'
   let g:ale_cpp_cc_options = '-std=c++17 -Wall -fopenmp'
   let g:ale_cpp_clangd_options  = '-std=c++17 -Wall -fopenmp'
