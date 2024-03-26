@@ -107,9 +107,11 @@ default_height = 30
 
 [[layers]]
   name = "lang#markdown"
+  enable = false
 
 [[layers]]
   name = "lang#rst"
+  enable = false
 
 [[layers]]
   name = "lang#json"
